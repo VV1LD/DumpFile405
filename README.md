@@ -14,6 +14,7 @@ some like eboots are renamed because i was too lazy to implement folder generati
 but you can change to code to suit whatever you choose to :)
 
 =Credits=
+
 -Specter for his kernel exploit / code execution method / syscall 11 which makes this easy
 -IDC for his mode of the Cturt SDK and his patches to allow for self decryption
 -Grass Skeu for the original code base this was made from (DumpFile for 1.76 built for hitodamas ps4sdk)
