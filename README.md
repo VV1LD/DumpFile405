@@ -2,7 +2,12 @@
 File Decrypter for the PS4 version 4.05
 
 change your ip address to use the pc you are listening ie:
-  socat - tcp-listen:9023
+ 
+   socat - tcp-listen:9023
+ 
+ send the payload like:
+    
+    socat -u FILE:DumpFile405.bin TCP:<ps4 ip>:9020
 
 compile with IDC's Cturt SDK mod ps4-payload-sdk https://github.com/idc/ps4-payload-sdk
 
@@ -17,5 +22,7 @@ but you can change to code to suit whatever you choose to :)
 =Credits=
 
 -Specter for his kernel exploit / code execution method / syscall 11 which makes this easy
+
 -IDC for his mode of the Cturt SDK and his patches to allow for self decryption
+
 -Grass Skeu for the original code base this was made from (DumpFile for 1.76 built for hitodamas ps4sdk)
