@@ -7,6 +7,7 @@ change your ip address to use the pc you are listening ie:
 compile with IDC's Cturt SDK mod ps4-payload-sdk https://github.com/idc/ps4-payload-sdk
 
 -on your usb stick (fat32) make a directory /405
+
 -insert into the ps4 and run the payload
 
 This will dump all the usermodules self/sprx/sdll/sexe onto your usb in the /405 folder decrypted
